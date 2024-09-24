@@ -1,4 +1,6 @@
 import random
+a=0
+b=0
 for i in range(1,6):
     x=random.randint(1,50)
     y=random.randint(1,50)
@@ -8,8 +10,7 @@ for i in range(1,6):
     sub=x-y
     mul=x*y
     div=x*y
-    a=0
-    b=0
+    
     if op==1:
         
         z=int(input("Enter Addition:-"))
